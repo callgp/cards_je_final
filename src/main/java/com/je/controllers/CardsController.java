@@ -23,7 +23,7 @@ import lombok.extern.slf4j.Slf4j;
 @RequestMapping("/api/v1/cards")
 public class CardsController {
 
-	//@Autowired
+	@Autowired
 	private CardsRepository cardsRepository;
 	
 	/*
